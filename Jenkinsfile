@@ -9,7 +9,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/<your-username>/infra-pipeline.git'
+                git 'https://github.com/Pratap-Samal/infra-pipeline.git'
             }
         }
 
